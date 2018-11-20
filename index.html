@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>C.V. Brodar Frédéric</title>
           <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
           <link rel="stylesheet" type="text/css" media="screen" href="css/contact.css" />
           <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' 
@@ -12,11 +12,22 @@
         <!-- Text email numero de tél, checkbox, radio select date de naissance  -->
 </head>
 <body>
-	<container>
-        <header>
+	<div class="main">
+        <header id="avatar">
+            <div class="header middle center">
                  <img src="img/avatar19a.png" alt="avatar">
-                  
+                </div>
             </header>
+            <div class="dropdown">
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#objectifs">Objectifs</a>
+                  <a class="dropdown-item" href="#formation">Formations</a>
+                  <a class="dropdown-item" href="#experience">Expériences</a>
+                  <a class="dropdown-item" href="portfolio.html">Réalisations</a>
+                  <a class="dropdown-item" href="#contact">Contact</a>
+                </div>
+              </div>
+       <div class="objectifs" id="objectifs">
  <h1>Frédéric BRODAR</h1>
             <h2 id="po1">Mes objectifs</h2>
             <ol>
@@ -27,6 +38,8 @@
                        <li>Acquérir d'autres compétences, à l'aide d'un stage en alternance ou d'un contrat de professionnalisation.
                         </li>
             </ol>
+        </div>
+<div class="formation" id="formation">
 
             <h2>Formation</h2>
 
@@ -41,10 +54,11 @@
                         <li>2007-2010 : Formation continue animateur - Bourges (18) 1984-1985 : Formation Dessinateur industriel - AFPA Stains (93)
                         </li>
                 </ul>
-
+            </div>
+<div id="experience">
                 <h2>Expérience</h2>
 		
-		<div class="tab">
+		<div class="tab" >
         <table>
             <tr>
                 <th>Année</th>
@@ -83,7 +97,8 @@
             </tr>
         </table>
     </div>
-    <div class="contact">
+</div>
+    <div class="contact" id="contact">
  <!---contact form -------------------------->
  <form action="/action_page.php">
     <input type="text" id="fname" name="fname"  placeholder="NOM*">
@@ -103,32 +118,19 @@
     <input type="text" id="zipcode" name="zipcode" placeholder="CODE POSTAL*">
     <input type="text" id="ville" name="ville" placeholder="VILLE*"><br>
     <label for="message">MESSAGE*</label><br><br>
-    <textarea type="box" id="message" name="message" cols="30" rows="10"></textarea><br><br>
+    <textarea class="textarea" type="box" id="message" name="message" cols="30" rows="10"></textarea><br><br>
     <input type="submit" id="button" class="button" value="Envoyer">
   
   </form>
   
 <!---end contact --------------------------------> 
-
-
-
-
-
     </div>
-
-          
-
       <footer>
-                            <h2>Ma phrase fétiche</h2>
-                    
-                            <p>
-                            Juste parce que <strong>ce n'est pas là</strong> où l'on s'y attend, ne <em>signifie pas</em> qu'il n'est pas ailleurs...
+              <h2>Ma phrase fétiche</h2>
+                  <p>Juste parce que <strong>ce n'est pas là</strong> où l'on s'y attend, ne <em>signifie pas</em> qu'il n'est pas ailleurs...
                     </p>
-                    
-                                <h3>Crée par BRODAR Frédéric</h3>
+                       <h3>Crée par BRODAR Frédéric</h3>
 </footer>
-                    
-	</container>
-
+</main>
 </body>
 </html>

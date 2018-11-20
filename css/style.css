@@ -3,33 +3,80 @@
     src: url(Roboto);
 }
 
+* {
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin:0;
+    font-family: 'Roboto';
+}
+
+
+html {
+    justify-content: center;
+}
+
+a:hover{
+    text-decoration: none;
+}
 
 body {
-	height: auto;
-	width: auto;
+	
 	/* to centre page on screen*/
 	margin-left: auto;
 	align-self: center;
-	border: 1px solid black;
 	font-family: 'Roboto';
-
+    font-size: 100%;
+    background-color: #f1f1f1;
 
 }
 
 .avatar {
 	width: 200px;
 	height: 200px;
-	
-	display: inline-block;
+    display: inline-block;
 }
 
-.container {
-	width: 100%;
-	align-content: center;
+button {
+    height: 25px;
+    background-color:rgb(255, 140, 0);
+    border: 2px solid red;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-style: inherit;
+    margin-left: 1.1%;
+    cursor: pointer;
+    }
+
+.dropdown-menu {
+    position: relative;
+    width: 98%;
+    height: 20px;
+    background-color: gainsboro;
+    margin-left: 1.1%;
+    margin-right: 1.1%;
+    margin-top: 2%;
+}
+
+a.dropdown-item {
+ color: #000;
+}
+
+.main {
+    align-content: center;
+    width: 100%;
+    height: auto;
+    max-width: 1000px;
+    margin: auto;
+    border: 1px solid black;
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 200%;
     text-decoration: underline;
     text-align: center;
 }
@@ -37,7 +84,7 @@ h1 {
 
 h2 {
     color: white;
-    background-color: darkorange;
+    background-color: #F7BE81;
     font-size: 32px;
     font-family: "Quicksand Regular";       
     margin-right: 20px;
@@ -52,24 +99,38 @@ h3 {
 }
 
 img {
-	height: auto;
-	width: 100%;
-	
+	max-width: 100%;
 	box-shadow: 2px 2px 2px rgb(116, 114, 114);
-     
 }
 
-header {
+#avatar {
+    position: relative;
+    width: 80%;
+    height: auto;
+    padding-bottom: 5%;
 	align-content: center;
-	width: 200px;
-	height: 200px;
-	margin-left: 42%;
+	margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
 	display: inline-block;
 }
 
-footer {
-	
+.header {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
+
+.top{top:0}
+.middle{top:50%;margin-top:-10px;/*half of the .box height*/}
+.bottom{bottom:0}
+
+.left{left:0;}
+.center{left:50%;margin-left:-10px;/*half of the .box width*/}
+.right{right:0;}
 
 p {
 	margin-left: 60px;
@@ -109,7 +170,9 @@ table, th, td {
     padding-left: 35px;
   }
 
-  ul.a {list-style-type: square;}
+  ul.a {list-style-type: square;
+    margin-left: 10%;
+}
 
   .contact {
       width: 100%;
@@ -117,5 +180,92 @@ table, th, td {
       height: auto;
       display: flex;
       justify-content: center;
+      border: 1px solid black;
+      font-size: 100%;
   }
 
+  .textarea {
+    background-color: white;
+}
+
+
+  @media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    body {
+    
+        font-size: 80%;
+    
+    }
+
+  
+    h1 {
+         font-size: 150%;
+    }
+    
+    h2{
+        font-size: 120%;
+    }
+
+    #avatar {
+        height: 20px;
+        padding-bottom: 2%;
+        margin-top:11%;
+       
+    }
+    
+    .header {
+        width: 60px;
+        height: auto;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .top{top:0}
+.middle{top:50%;margin-top:-10px;/*half of the .box height*/}
+.bottom{bottom:0}
+
+.left{left:0;}
+.center{left:50%;margin-left:-10px;/*half of the .box width*/}
+.right{right:0;}
+    
+button {
+    margin-left: 6%;
+}
+
+.dropdown-menu {
+    position: relative;
+    width: 90%;
+    font-size: 85%;
+    margin-left: 6%;
+    padding-top: 1%;
+}
+
+
+    .formation {
+        position: relative;
+        padding-top: 25px;
+    }
+
+    .obectifs {
+        margin-bottom: 30px;
+    }
+
+    .tab {
+        margin : 1%;
+    }
+
+    .contact {
+        width: 80%;
+    
+        margin-left: 10%;
+        font-size: 80%;
+    }
+
+    input {
+        font-size: 80%;
+    }
+
+   
+}
