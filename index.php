@@ -4,16 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="http://www.exonet3i.com/exonet3i_favicon.ico" type="image/x-icon"/>
     <title>C.V. Brodar Frédéric</title>
-          <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
-          <link rel="stylesheet" type="text/css" media="screen" href="css/contact.css" />
-          <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' 
-          rel='stylesheet' type='text/css'>
-          <link rel="stylesheet" href="css/bootstrap1.css">
+    <meta name="description" content="cv Brodar Frédéric" >
+<meta name="keywords" content="cv, développeur, développeur web, aformac">
+<meta name="author" content="Brodar Frédéric">
+<meta name="publisher" content="Brodar Frédéric">
+<link rel="image_src" href="img/avatar19a.png">
+<meta name="language" content="fr" >
+<meta name="distribution" content="global" >
+<meta name="expires" content="never">
+<meta name="Robots" content="index, follow">
+<link rel="author" href="dcl.fredb@18pixel.fr">
+<meta name="copyright" content="BRODAR-2018">
+<meta property="og:locale" content="fr_FR" />
+        <meta property="og:title" content="cv Brodar Frédéric"/>
+        <meta property="og:description" content="cv Brodar Frédéric"/>
+        <meta property="og:url" content="http:///">
+        <meta property="og:site_name" content="" />
+        <meta property="article:publisher" content="Brodar Frédéric" />
+        <meta property="og:image" content="">
+        <meta property="og:image" content="">
+        <link rel='dns-prefetch' href='' />
+        <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="css/contact.css" />
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' 
+        rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/bootstrap1.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-       
-        <style>
+ <style>
 .error {
     color: #FF0000;
     font-size:10px;
@@ -24,44 +44,44 @@
 	<div class="main">
     <div class="dropdown">
           <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Menu
-          <span class="caret"></span></button>
-          <ul class="dropdown-menu">
-            <li><a href="#objectifs">Objectifs</a></li>
-            <li><a href="#formation">Formations</a></li>
-            <li><a href="#experience">Expériences</a></li>
-            <li><a href="portfolio.html">Réalisations</a>
-            <li><a href="#contact">Contact</a>
-          </ul>
-</div>
-        <header id="avatar">
-            <div class="header middle center">
-                 <img src="img/avatar19a.png" alt="avatar">
-                </div>
-        </header>
+             <span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                        <li><a href="#objectifs">Objectifs</a></li>
+                       <li><a href="#formation">Formations</a></li>
+                       <li><a href="#experience">Expériences</a></li>
+                       <li><a href="portfolio.html" style="font-weight: bold;">Réalisations</a>
+                       <li><a href="#contact">Contact</a>
+                  </ul>
+                    </div>
+                          <header id="avatar">
+                            <div class="header middle center">
+                                <img src="img/brodar.jpg" alt="avatar">
+                                     </div>
+                                         </header>
         
-       <div class="objectifs" id="objectifs">
+                                          <div class="objectifs" id="objectifs">
  
- <div class="entete"><h1>Frédéric BRODAR</h1>
- <img src="img/developpeur1000.png" alt="logo">
-</div>
+                                         <div class="entete"><h1>Frédéric BRODAR</h1>
+                                    <img src="img/developpeur1000.png" alt="logo">
+                                </div>
 
-            <h2 id="po1">Mes objectifs</h2><br>
-            <ol>
-                 <li>Créé mon projet professionnel « webmaster »
-                 </li>
-                     <li>Avoir le plus d'atouts possibles, pour chercher un emploi.
-                      </li>
-                       <li>Acquérir d'autres compétences, à l'aide d'un stage en alternance ou d'un contrat de professionnalisation.
-                        </li>
-            </ol>
-        </div>
-<div class="formation" id="formation">
+                               <h2 id="po1">Mes objectifs</h2><br>
+                        <ol>
+                            <li>Créé mon projet professionnel « webmaster »
+                            </li>
+                               <li>Avoir le plus d'atouts possibles, pour chercher un emploi.
+                             </li>
+                            <li>Acquérir d'autres compétences, à l'aide d'un stage en alternance ou d'un contrat de professionnalisation.
+                          </li>
+                        </ol>
+                  </div>
+            <div class="formation" id="formation">
                 
-            <h2>Formation</h2><br>
+      <h2>Formation</h2><br>
 
             <ul class="a">
-					<li>2018 → Développeur Web - Aformac BOURGES (18)</li>
-                    <li>2018 : Azure et Microsoft 365 - Microsoft Tech Summit Paris (75) 2016-2017
+					    <li>2018 → Développeur Web - Aformac BOURGES (18)</li>
+                         <li>2018 : Azure et Microsoft 365 - Microsoft Tech Summit Paris (75) 2016-2017
                         </li>
                         <li>2016-2017 : Projet Webmaster – Bourges (18)
                         </li>
@@ -69,9 +89,9 @@
                         </li>
                         <li>2007-2010 : Formation continue animateur - Bourges (18) 1984-1985 : Formation Dessinateur industriel - AFPA Stains (93)
                         </li>
-                </ul>
+            </ul>
             </div>
-<div id="experience">
+        <div id="experience">
                 <h2>Expérience</h2>
 		
 		<div class="tab" >
@@ -113,7 +133,7 @@
             </tr>
         </table>
     </div>
-</div>
+</div><h3>Contact :</h3><br>
     <div class="contact" id="contact">
         <?php 
         // define variables and set to empty values
@@ -173,11 +193,10 @@ function test_input($data) {
   $data = htmlspecialchars($data);
   return $data;
 }
-        
-         ?>
- <!---contact form -------------------------->
+    ?>
+          <!---contact form -------------------------->
  <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-    <input type="text" id="fname" name="fname"  maxlength="10" placeholder="NOM*" title="Lettres seulement !"
+    <input type="text" id="fname" name="name"  maxlength="10" placeholder="NOM*" title="Lettres seulement !"
                    value="Nom"
                    onkeydown="return alphaOnly(event);"
                    onblur="if (this.value == '') {this.value = 'Nom';}"
@@ -194,11 +213,11 @@ function test_input($data) {
     <input type="checkbox" name="ent" value="Masculin" checked="checked"> Particulier<br>
     <input type="checkbox" name="ent" value="Feminin" > Entreprise<br><br>
  
-    <input type="tel" id="phone" name="lphone" placeholder="TELEPHONE*">
+    <input type="tel" id="phone" name="lphone" placeholder="TELEPHONE*" maxlength="10" onkeypress="return isNumberKey(event)">
     <span class="error">* <?php echo $telErr;?></span><br>
     <input type="email" id="email" name="email" placeholder="EMAIL*">
     <span class="error">* <?php echo $emailErr;?></span>
-    <input type="text" id="zipcode" name="zipcode" placeholder="CODE POSTAL*">
+    <input type="text" id="zipcode" name="zipcode" placeholder="CODE POSTAL*" maxlength="5" onkeypress="return isNumberKey(event)">
     <span class="error">* <?php echo $zipErr;?></span>
     <input type="text" id="ville" name="ville" placeholder="VILLE*">
     <span class="error">* <?php echo $villeErr;?></span><br>
@@ -207,7 +226,7 @@ function test_input($data) {
     <textarea class="textarea" type="box" id="message" name="message" cols="30" rows="10"></textarea><br><br>
     <span class="error">* <?php echo $textErr;?></span><br><br>
     <input type="submit" id="button" class="button" value="Envoyer">
-  
+    &nbsp;&nbsp;<label id="maxReached" style="visibility: hidden; color:red">(!)</label><br>
   </form>
   <?php
    echo $name;
@@ -263,11 +282,22 @@ function test_input($data) {
                        <h3>Crée par BRODAR Frédéric</h3>
 </footer>
 </main>
+<!---Lettres seulement---------------------------->
 <script>
     function alphaOnly(event) {
     var key = event.keyCode;
     return ((key >= 65 && key <= 90) || key == 8);
 };
 </script>
+<!---Nombres seulement---------------------------->
+<script>
+function isNumberKey(evt)
+{
+    var charCode = (evt.which) ? evt.which : event.keyCode
+    if (charCode > 31 && (charCode < 48 || charCode > 57))
+        return false;
+        return true;
+}
+    </script>
 </body>
 </html>

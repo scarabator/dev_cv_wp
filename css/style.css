@@ -103,7 +103,7 @@ h2 {
     font-family: "Quicksand Regular";       
     margin-right: 20px;
     margin-left: 20px;
-    border: 2px solid red;
+    border: 2px solid blue;
     text-align: center;
    
    }
@@ -176,6 +176,7 @@ table {
 
 table, th, td {
     border: 1px solid black;
+    box-shadow: 5px 10px 8px #888888;
     background-color: aliceblue;
 }
 
@@ -216,6 +217,7 @@ table, th, td {
       padding-bottom: 1%;
       justify-content: center;
       border: 1px solid black;
+      box-shadow: 5px 10px 8px #888888;
       background-color: aliceblue;
       font-size: 100%;
   }
