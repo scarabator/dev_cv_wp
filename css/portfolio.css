@@ -8,9 +8,8 @@
 }
 
 body {
-    background-color: #f1f1f1;
-    padding: 20px;
-    font-family: Arial;
+    padding: 10px;
+    font-family: 'Roboto';
 }
 
 img {
@@ -21,12 +20,17 @@ img {
 .main {
     max-width: 1000px;
     margin: auto;
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #888888
 }
 
 h1 {
     font-size: 2.5em;
     word-break: break-all;
-}
+    text-shadow: 2px 2px #008CBA;
+   }
 
 .row {
     margin: 8px -16px;
@@ -34,9 +38,53 @@ h1 {
 
 .titre {
     position: relative;
-    background-color: #F7BE81;
+    margin-top: -10px;
+    margin-bottom: 5%;
+    text-indent: 50px;
+background: rgba(255,211,158,1);
+background: -moz-linear-gradient(top, rgba(255,211,158,1) 0%, rgba(255,255,255,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,211,158,1)), color-stop(100%, rgba(255,255,255,1)));
+background: -webkit-linear-gradient(top, rgba(255,211,158,1) 0%, rgba(255,255,255,1) 100%);
+background: -o-linear-gradient(top, rgba(255,211,158,1) 0%, rgba(255,255,255,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,211,158,1) 0%, rgba(255,255,255,1) 100%);
+background: linear-gradient(to bottom, rgba(255,211,158,1) 0%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd39e', endColorstr='#ffffff', GradientType=0 );
+
 }
 
+.over {
+    position: relative;
+    width: 50%;
+  }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .over:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 
 .cv {
     width: auto;
@@ -73,15 +121,15 @@ h1 {
 
 /* Content */
 .content {
-    background-color: white;
+    background-color: #FEEACE;
     padding: 10px;
 }
 
 .blog {
     width: 100px;
     height: auto;
-    position:absolute; right:30%; top: 700px;
-   }
+    position:absolute; right:25%; top: 800px;
+    }
 
    .top{top:0}
 
