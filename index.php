@@ -30,9 +30,9 @@
         <link rel="stylesheet" type="text/css" media="screen" href="css/contact.css" />
         <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' 
         rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="css/bootstrap1.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" media="screen" href="css/popup.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link rel="stylesheet" href="css/particule.css">
  <style>
 .error {
     color: #FF0000;
@@ -41,60 +41,48 @@
 </style>
 </head>
 <body>
-	<div class="main">
-    <div class="dropdown">
-          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Menu
-             <span class="caret"></span></button>
-                  <ul class="dropdown-menu">
-                        <li><a href="#objectifs">Objectifs</a></li>
-                       <li><a href="#formation">Formations</a></li>
-                       <li><a href="#experience">Expériences</a></li>
-                       <li><a href="portfolio.html" style="font-weight: bold;">Réalisations</a>
-                       <li><a href="#contact">Contact</a>
-                  </ul>
+<div id="particles-js"></div>
+  <div class="text">
+  <div class="dropdown" id="menu">
+          <button class="dropbtn">Menu</button>
+                  <div class="dropdown-content">
+                         <a href="#objectifs">Objectifs</a>
+                         <a href="#formation">Formations</a>
+                          <a href="#experience">Expériences</a>
+                          <a href="#langues">Langues</a>
+                          <a href="#centre">Centres d'intérêts</a>
+                          <a href="portfolio.html" style="font-weight: bold;">Réalisations</a>
+                          <a href="#contact">Contact</a>
+                  </div>
                     </div>
-                          <header id="avatar">
+	<div class="main">
+                    <header id="avatar">
                             <div class="header middle center">
                                 <img src="img/brodar.jpg" alt="avatar">
                                      </div>
                                          </header>
-        
-                                          <div class="objectifs" id="objectifs">
- 
-                                         <div class="entete"><h1>Frédéric BRODAR</h1>
-                                    <img src="img/developpeur1000.png" alt="logo">
-                                </div>
-
-                               <h2 id="po1">Mes objectifs</h2><br>
+                                             <div class="objectifs" id="objectifs">
+                                          <div class="entete">
+                                  <div class="tooltip"><h1>Frédéric BRODAR</h1>
+                       <span class="tooltiptext">3 Rond Point Jacques Coeur<br>
+                 18220 RIANS<br>
+                 <a href="tel:0659910270">Tél : 06.59.91.02.70</a><br>
+      </span>
+</div>
+     <img src="img/developpeur1000.png" alt="logo">
+          </div>
+          <div class="pres">
+                <h2 id="po1">Mes objectifs</h2><br>
                         <ol>
-                            <li>Créé mon projet professionnel « webmaster »
-                            </li>
-                               <li>Avoir le plus d'atouts possibles, pour chercher un emploi.
-                             </li>
-                            <li>Acquérir d'autres compétences, à l'aide d'un stage en alternance ou d'un contrat de professionnalisation.
-                          </li>
+                        <li>Développer mes compétences à l'aide d'un stage en entreprise pouvant aboutir à un contrat.</li>
+                            <li>Créé mon projet professionnel « webmaster »</li>
+                           <li>Acquérir d'autres compétences dans le secteur du numérique.</li>
                         </ol>
                   </div>
-            <div class="formation" id="formation">
-                
-      <h2>Formation</h2><br>
-
-            <ul class="a">
-					    <li>2018 → Développeur Web - Aformac BOURGES (18)</li>
-                         <li>2018 : Azure et Microsoft 365 - Microsoft Tech Summit Paris (75) 2016-2017
-                        </li>
-                        <li>2016-2017 : Projet Webmaster – Bourges (18)
-                        </li>
-                        <li>2015 : Compétences transverses  – Les Aix d'Angillon (18)
-                        </li>
-                        <li>2007-2010 : Formation continue animateur - Bourges (18) 1984-1985 : Formation Dessinateur industriel - AFPA Stains (93)
-                        </li>
-            </ul>
-            </div>
-        <div id="experience">
+                </div>
+                  <div class="pres" id="experience">
                 <h2>Expérience</h2>
-		
-		<div class="tab" >
+	<div class="tab" >
         <table>
             <tr>
                 <th>Année</th>
@@ -133,7 +121,60 @@
             </tr>
         </table>
     </div>
-</div><h3>Contact :</h3><br>
+</div>
+<div class="formation" id="compétences">
+            <h2>Compétences</h2><br>
+                      <ul class="a">
+                               <li>Langages : XHTML/HTML5/CSS - JavaScript/DOM/JQuery - PHP/mysql - SQL - Ajax
+                                - XML - SVG - C# - GIT</li>
+                                 <li>CMS : Wordpress, Joomla, Drupal - E-commerce : Magento, Prestashop, Woocommerce, Hikashop - 
+                                 Référencement (SEO)</li>
+                                 <li>Utilisation de Visual Studio, Webstorm, Dreamweaver, Muse.</li>
+                                 <li>Configuration DNS, Cloudflare.</li>
+                                 <li>Virtualisation : Proxmox, Esxi.</li>
+                                 <li>Administration serveur virtuel et dédié.</li>
+                                 <li>Apache/Nginx - Node - Docker - IIS</li>
+                                 <li>Serveur Web messaging (Smsc) Jookies - Nexmo.</li>
+                                 <li>Pentesting - Blockchain (Multichain).</li>
+                                 <li>Base de données : Mysql, Mongodb, ProsgreSQL, Elastisearch.(ELK)</li>
+                                 <li>Déploiement d'application: AWS - Azure.
+                                 <li>P.A.O. (Word, Excel, Office 365).</li>
+                                 <li>D.A.O. (Photoshop, illustrator, Autocad, 3DSMax)</li>
+                            </ul>
+                      </div>
+                      <div class="formation" id="organisation">
+            <h2>Compétences organisationnelles:</h2><br>
+                      <ul class="a">
+                               <li>Aptitude à organiser un travail, identifier les tâches et les planifier.</li>
+                               <li>Ponctualité, rigueur et esprit méthodique.</li>
+                               <li>Précision et anticipation des tâches.</li>
+                               <li>Capacité d'adaptation et esprit d'initiative.</li>
+                       </ul>
+                      </div>
+            <div class="formation" id="formation">
+       <h2>Formation</h2><br>
+           <ul class="a">
+					    <li>2018 → Développeur Web - Aformac BOURGES (18)</li>
+                         <li>2018 : Azure et Microsoft 365 - Microsoft Tech Summit Paris (75) 2016-2017
+                        </li>
+                        <li>2016-2017 : Projet Webmaster – Bourges (18)
+                        </li>
+                   </ul>
+            </div>
+
+<div class="formation" id="langues">
+            <h2>Langues</h2><br>
+                      <ul class="a">
+                               <li>Anglais : Lu et parlé. </li>
+                       </ul>
+                      </div>
+                      <div class="formation" id="centre">
+            <h2>Centres d'intérêts</h2><br>
+                      <ul class="a">
+                               <li>Robotique, micro-mécanique. </li>
+                       </ul>
+                      </div><br><hr><br>
+<h3>Contact :</h3><br>
     <div class="contact" id="contact">
         <?php 
         // define variables and set to empty values
@@ -278,8 +319,8 @@ function test_input($data) {
       <footer>
               <h2>Ma phrase fétiche</h2><br>
                   <p>Juste parce que <strong>ce n'est pas là</strong> où l'on s'y attend, ne <em>signifie pas</em> qu'il n'est pas ailleurs...
-                    </p>
-                       <h3>Crée par BRODAR Frédéric</h3>
+                    </p><br>
+                       <h4>&copy; 2018 - BRODAR Frédéric</h4><br>
 </footer>
 </main>
 <!---Lettres seulement---------------------------->
@@ -299,5 +340,8 @@ function isNumberKey(evt)
         return true;
 }
     </script>
+         </div>
+<script src='https://cldup.com/S6Ptkwu_qA.js'></script>
+  <script  src="js/index.js"></script>
 </body>
 </html>
